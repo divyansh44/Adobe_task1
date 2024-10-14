@@ -18,10 +18,10 @@ Task 1 of the Adobe problem statement in the inter IIT tech meet 12.0
 
 # Model Architecture
   >CNN for Image Feature Extraction
-    -EfficientNet-b0 from the timm library is used to extract image features.
-    -The model is pre-trained and fine-tuned on the target dataset.
+    *EfficientNet-b0 from the timm library is used to extract image features.
+    *The model is pre-trained and fine-tuned on the target dataset.
   >BERT for Text Embeddings
-    -BERT base uncased model (pre-trained) generates embeddings (768 dimensions) for:
+    *BERT base uncased model (pre-trained) generates embeddings (768 dimensions) for:
       1)Text metadata: Information related to the image.
       2)OCR text: Extracted text from the image using OCR.
   Combined Feature Set
