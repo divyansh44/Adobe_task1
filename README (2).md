@@ -69,9 +69,6 @@ The Adobe dataset was split into training and validation sets for model training
 ### **Batch Size**
 - Both training and validation sets use a batch size of **16**.
 
-### **Progress Tracking**
-- **TQDM** is used in both training and validation loops to track progress.
-
 ---
 
 ## **Results**
@@ -79,66 +76,9 @@ The Adobe dataset was split into training and validation sets for model training
   
 ---
 
-## **Requirements**
-To run this project, the following dependencies are required:
-- **Python 3.8+**
-- **PyTorch**
-- **Transformers (Huggingface)**
-- **Torchvision**
-- **Timm** (PyTorch image models)
-- **Matplotlib**
-- **TQDM**
-- **Pandas**
-- **NumPy**
-- **Pillow** (for image processing)
-
----
-
-## **Installation**
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-repository/adobe-task1.git
-    cd adobe-task1
-    ```
-
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
----
-
-## **Usage**
-
-**Training the Model**
-
-1. Prepare the dataset by splitting it into training and validation sets.
-2. Run the training script:
-
-    ```bash
-    python train.py
-    ```
-
-The training process will save model checkpoints after each epoch.
-
----
-
 ## **Future Improvements**
+- **Deeper analysis of data**: Further analysis and experimentation with data.
 - **Hyperparameter Tuning**: Further tuning of learning rates, batch sizes, etc.
 - **Ensemble Methods**: Experiment with combining this model with other models.
 - **Data Augmentation**: Additional augmentations to improve robustness.
 
----
-
-## **License**
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
----
-
-## **Acknowledgments**
-
-- Thanks to **Huggingface** for providing pre-trained BERT models.
-- **EfficientNet** model is courtesy of the `timm` library.
-- Special thanks to the open-source community for their contributions to the tools and libraries used in this project.
