@@ -5,8 +5,8 @@ Task 1 of the Adobe problem statement in the inter IIT tech meet 12.0
 
 # Project Overview
   This project implements a model combining:
-    - CNN for image embeddings.
-    - BERT base uncased transformer for generating embeddings from text metadata and OCR-extracted text.
+    CNN for image embeddings.
+    BERT base uncased transformer for generating embeddings from text metadata and OCR-extracted text.
   The model concatenates these embeddings to create a combined feature set and uses fully connected layers on these concatenated embeddings for the final output.
 
 # Dataset
@@ -14,7 +14,6 @@ Task 1 of the Adobe problem statement in the inter IIT tech meet 12.0
   Metadata Text: Text under the 'content' column of the dataset.
   OCR Text: Extracted text from the image using Optical Character Recognition (OCR).
   The Adobe Dataset (with image URLs and text metadata) has been used. 
-
   The dataset was split into training and validation sets for model training and evaluation.
 
 # Model Architecture
